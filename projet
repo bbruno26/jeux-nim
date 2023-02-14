@@ -1,0 +1,18 @@
+somme = 21
+k=3
+def nom_joueur():
+    return input("quel est ton nom?")
+
+def somme_décision (nom):
+    nbr=int (input("combien d\'allumette veux-tu enlever"))
+    return nbr
+joueur1 =nom_joueur()
+joueur2 =nom_joueur()
+while True:
+    somme = somme_décision 
+    if somme ==0:
+        print("gagne","","joueur 1")
+        break
+    if somme ==0:
+        print("gagne","","joueur2")
+        break

@@ -9,7 +9,7 @@ def somme_décision (nom):
 joueur1 =nom_joueur()
 joueur2 =nom_joueur()
 while True:
-    somme = somme_décision 
+    somme -= somme_décision(joueur1) 
     if somme ==0:
         print("gagne","","joueur 1")
         break
